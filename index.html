@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>みんなで発見！札幌の植物たんけん</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 写真拡大用のライブラリ (Lightbox) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="season-label">夏の終わり編</span>
+            <h1>みんなで発見！札幌の植物たんけん</h1>
+            <p class="subtitle">北海道大学から豊平川まで - ワクワクみどりの冒険に出かけよう！</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>さあ、たんけんに出かけよう！</h2>
+            <p>札幌のまちには、びっくりするくらいたくさんの植物が隠れているよ！北海道大学のキャンパスから豊平川までの道のりには、どんな緑の友だちが待っているかな？一緒に探検してみよう！</p>
+            <p>このページでは、家族や友だちと一緒に楽しめる植物探検マップを紹介するよ。自分のペースで歩きながら、札幌の自然のふしぎを発見しよう！</p>
+            <div class="fun-fact">
+                <span class="fun-fact-icon">💡</span>
+                <p>知ってた？札幌の「さっぽろ」という名前は、アイヌ語の「サッ・ポロ・ペツ（乾いた大きな川）」からきているんだって！これは豊平川のことを表していたんだよ！</p>
+            </div>
+        </section>
+        
+        <div class="map-container">
+            <div class="map-overlay">
+                <h3>たんけんマップ</h3>
+                <p>北海道大学から豊平川までのルートだよ。青いマークが観察スポットだよ！</p>
+                <div class="map-button">
+                    <span class="map-emoji">🔍</span> タップして拡大
+                </div>
+            </div>
+        </div>
+        
+        <section id="street-trees" class="featured-section">
+            <h2><span class="section-emoji">🌳</span> まちなかの木を見つけよう！</h2>
+            
+            <div class="plant-list">
+                <!-- シナノキ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/street-trees/sinanoki_01.jpg" data-lightbox="sinanoki" data-title="シナノキ：北海道の代表的な街路樹。夏に小さな黄白色の花を咲かせます。">
+                            <img src="images/street-trees/sinanoki_01.jpg" alt="シナノキ" class="plant-img">
+                        </a>
+                        <a href="images/street-trees/sinanoki_02.jpg" data-lightbox="sinanoki" data-title="シナノキの葉：ハート型の葉っぱが特徴的です。" class="hidden"></a>
+                        
+                        <span class="photo-count">+1</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>シナノキ</h4>
+                            <span class="plant-badge">北海道の木</span>
+                        </div>
+                        <p class="scientific-name">Tilia japonica</p>
+                        <p class="plant-features">ハート型の葉っぱが特徴的な優しい木だよ！夏には、小さな黄色い花がたくさん咲いて、とってもいい香りがするんだ。アイヌの人たちは、この木の皮から繊維を取り出して、「アットゥシ」という服を作っていたんだって。すごいね！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：シナノキのハート型の葉っぱを探してみよう！触ってみるとザラザラしているよ！</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- イチョウ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/street-trees/icho_01.jpg" data-lightbox="icho" data-title="イチョウ：北大正門から続くイチョウ並木は、札幌を代表する景観の一つです。">
+                            <img src="images/street-trees/icho_01.jpg" alt="イチョウ" class="plant-img">
+                        </a>
+                        <a href="images/street-trees/icho_02.jpg" data-lightbox="icho" data-title="イチョウの葉：扇形の特徴的な葉を持ちます。" class="hidden"></a>
+                        <a href="images/street-trees/icho_03.jpg" data-lightbox="icho" data-title="イチョウ並木：秋には黄金色に輝きます。" class="hidden"></a>
+                        
+                        <span class="photo-count">+2</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>イチョウ</h4>
+                            <span class="plant-badge">生きた化石</span>
+                        </div>
+                        <p class="scientific-name">Ginkgo biloba</p>
+                        <p class="plant-features">わぁ！北大の正門から続くイチョウ並木は、まるで黄金の道みたい！扇型の葉っぱは、恐竜が生きていた時代からほとんど形が変わっていないんだよ。だから「生きた化石」とも呼ばれているんだ。秋になると、葉っぱが黄金色に輝くよ！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：イチョウの葉っぱを拾って、真ん中から二つに折ってみよう！どんな形になるかな？</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-note kids-version">
+                <div class="expert-icon">🌿</div>
+                <div class="expert-content">
+                    <h4>植物博士からのひみつ情報！</h4>
+                    <p>まちなかの木は、とっても大変な環境で生きているんだよ！アスファルトで根っこのスペースが限られていたり、排気ガスやお塩の害を受けたりしているんだ。それでもまちに緑と涼しさをプレゼントしてくれる、すごい生命力の持ち主なんだよ！</p>
+                    <p><em>- </em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="park-trees" class="featured-section">
+            <h2><span class="section-emoji">🌲</span> 公園のきみょうな木</h2>
+            
+            <div class="plant-list">
+                <!-- カツラ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/park-trees/katsura_01.jpg" data-lightbox="katsura" data-title="カツラ：秋には葉から甘いキャラメルのような香りがします。">
+                            <img src="images/park-trees/katsura_01.jpg" alt="カツラ" class="plant-img">
+                        </a>
+                        <a href="images/park-trees/katsura_02.jpg" data-lightbox="katsura" data-title="カツラの葉：丸みを帯びた心臓形の葉が特徴です。" class="hidden"></a>
+                        <a href="images/park-trees/katsura_03.jpg" data-lightbox="katsura" data-title="カツラの幹：樹皮は灰褐色で縦に細かく裂けます。" class="hidden"></a>
+                        <a href="images/park-trees/katsura_04.jpg" data-lightbox="katsura" data-title="カツラの紅葉：秋には黄色から橙色に変化します。" class="hidden"></a>
+                        
+                        <span class="photo-count">+3</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>カツラ</h4>
+                            <span class="plant-badge">キャラメルの木</span>
+                        </div>
+                        <p class="scientific-name">Cercidiphyllum japonicum</p>
+                        <p class="plant-features">ふしぎな木を発見！このカツラの木、秋になると葉っぱから「焼きキャラメル」のような甘〜い香りがするんだよ！丸くてかわいい葉っぱも特徴的。アイヌの人たちは「ニタチ」と呼んで、軽くて加工しやすい木材からカヌーや家を作っていたんだって。においをかいでみたくなるよね！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：秋になったら、カツラの木の下でキャラメルの香りをかいでみよう！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-note kids-version">
+                <div class="expert-icon">🔬</div>
+                <div class="expert-content">
+                    <h4>植物博士からのひみつ情報！</h4>
+                    <p>北大植物園では、なんと約4,000種類もの植物が育てられているんだよ！普通なら高い山にしか生えない珍しい植物も見られるんだ。まるで植物の博物館みたいなところだね！</p>
+                    <p><em>- </em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="river-plants" class="featured-section">
+            <h2><span class="section-emoji">🌊</span> 豊平川のふしぎな植物</h2>
+            
+            <div class="plant-list">
+                <!-- オノエヤナギ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/river-plants/onoe_yanagi_01.jpg" data-lightbox="onoe-yanagi" data-title="オノエヤナギ：豊平川の河畔林を形成する代表的な樹種です。">
+                            <img src="images/river-plants/onoe_yanagi_01.jpg" alt="オノエヤナギ" class="plant-img">
+                        </a>
+                        <a href="images/river-plants/onoe_yanagi_02.jpg" data-lightbox="onoe-yanagi" data-title="オノエヤナギの葉：細長い葉が特徴です。" class="hidden"></a>
+                        <a href="images/river-plants/onoe_yanagi_03.jpg" data-lightbox="onoe-yanagi" data-title="オノエヤナギの生育環境：河川敷に群生します。" class="hidden"></a>
+                        
+                        <span class="photo-count">+2</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>オノエヤナギ</h4>
+                            <span class="plant-badge">川の守り神</span>
+                        </div>
+                        <p class="scientific-name">Salix udensis</p>
+                        <p class="plant-features">豊平川のそばには、このオノエヤナギがいっぱい！しなやかな枝と細長い葉っぱが特徴だよ。春になると、ふわふわの銀色の花（ネコヤナギ）を咲かせるんだ。洪水が来ても折れずに曲がるだけの強い木で、川の土手を守っているんだよ。アイヌの人たちは枝を編んでかごや魚を捕る罠を作ったんだって！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：オノエヤナギの細長い葉っぱを見つけて、どれだけ長いか測ってみよう！</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ハコヤナギ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/river-plants/hako_yanagi_01.jpg" data-lightbox="hakoyagi" data-title="セイヨウハコヤナギ：ヨーロッパ原産の外来種で、河川敷に生育しています。">
+                            <img src="images/river-plants/hako_yanagi_01.jpg" alt="セイヨウハコヤナギ" class="plant-img">
+                        </a>
+                        <a href="images/river-plants/hako_yanagi_02.jpg" data-lightbox="hakoyagi" data-title="セイヨウハコヤナギの特徴的な樹形：まっすぐに伸びる姿が特徴です。" class="hidden"></a>
+                        
+                        <span class="photo-count">+1</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>セイヨウハコヤナギ</h4>
+                            <span class="plant-badge">外国からの旅人</span>
+                        </div>
+                        <p class="scientific-name">Populus nigra</p>
+                        <p class="plant-features">まっすぐ空に向かって伸びる姿がカッコいい木だね！これはヨーロッパから来た「セイヨウハコヤナギ」だよ。別名「ポプラ」とも呼ばれているんだ。成長がとても速くて、風にも強いから、防風林として植えられることも多いんだ。初夏には「綿毛」のような種を飛ばすよ。ふわふわと風に乗って飛んでいくよ！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：ハコヤナギとオノエヤナギの葉っぱを比べてみよう！どう違うかな？</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ニセアカシア -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/river-plants/niseakasia_01.jpg" data-lightbox="niseakasia" data-title="イヌエンジュ（ニセアカシア）：外来種で、河川敷に多く生育しています。">
+                            <img src="images/river-plants/niseakasia_01.jpg" alt="イヌエンジュ（ニセアカシア）" class="plant-img">
+                        </a>
+                        <a href="images/river-plants/niseakasia_02.jpg" data-lightbox="niseakasia" data-title="イヌエンジュの葉と実：複葉と豆果が特徴です。" class="hidden"></a>
+                        
+                        <span class="photo-count">+1</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>ニセアカシア</h4>
+                            <span class="plant-badge">ミツバチの友だち</span>
+                        </div>
+                        <p class="scientific-name">Robinia pseudoacacia</p>
+                        <p class="plant-features">北アメリカからやってきた「ニセアカシア」は、初夏に白いブドウの房みたいな花をたくさん咲かせるよ！この花、とってもいい香りがして、ミツバチさんたちの大好物なんだ。「アカシアはちみつ」の元になる花なんだよ！葉っぱはたくさんの小さな葉がついた「複葉」になっていて、夜になると閉じちゃうんだ。おもしろいね！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：ニセアカシアの複葉を見つけて、小さな葉っぱの数を数えてみよう！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-note kids-version">
+                <div class="expert-icon">🌊</div>
+                <div class="expert-content">
+                    <h4>植物博士からのひみつ情報！</h4>
+                    <p>豊平川の河原に生える植物たちは、洪水に負けない特別なパワーを持っているんだよ！強い根っこや、すぐに成長する能力、風で種を遠くまで飛ばす工夫など、川辺で生きるための作戦をたくさん持っているんだ。自然界のサバイバル選手みたいだね！</p>
+                    <p><em>- </em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hokkaido-trees" class="featured-section">
+            <h2><span class="section-emoji">🌲</span> 北海道だけの特別な木</h2>
+            
+            <div class="plant-list">
+                <!-- ドドマツ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/hokkaido-trees/dodomatsu_01.png" data-lightbox="dodomatsu" data-title="ドドマツ：北海道の代表的な針葉樹です。">
+                            <img src="images/hokkaido-trees/dodomatsu_01.png" alt="ドドマツ" class="plant-img">
+                        </a>
+                        <a href="images/hokkaido-trees/dodomatsu_02.png" data-lightbox="dodomatsu" data-title="ドドマツの葉：平たい針葉が特徴的です。" class="hidden"></a>
+                        
+                        <span class="photo-count">+1</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>ドドマツ</h4>
+                            <span class="plant-badge">森の王さま</span>
+                        </div>
+                        <p class="scientific-name">Abies sachalinensis</p>
+                        <p class="plant-features">北海道の森の王さま「ドドマツ」だよ！アイヌの人たちは「トド」と呼んでいたんだ。触ってみると、平らでやわらかい針葉がびっしり生えているよ。葉っぱの裏側には白い線が2本あるのが特徴なんだ。クリスマスツリーに使われるモミの木の仲間で、冬でも緑のままなんだよ。良い香りもするから、見つけたら葉っぱをこすって匂いをかいでみてね！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：ドドマツの葉っぱを触ってみよう！チクチクしない？他の針葉樹と比べてみよう！</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- カラマツ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/hokkaido-trees/karamatsu_01.jpg" data-lightbox="karamatsu" data-title="カラマツ：落葉性の針葉樹で、秋には黄金色に色づきます。">
+                            <img src="images/hokkaido-trees/karamatsu_01.jpg" alt="カラマツ" class="plant-img">
+                        </a>
+                        <a href="images/hokkaido-trees/karamatsu_02.jpg" data-lightbox="karamatsu" data-title="カラマツの樹皮：赤褐色の樹皮が特徴的です。" class="hidden"></a>
+                        
+                        <span class="photo-count">+1</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>カラマツ</h4>
+                            <span class="plant-badge">変わり者の針葉樹</span>
+                        </div>
+                        <p class="scientific-name">Larix kaempferi</p>
+                        <p class="plant-features">これはビックリ！「カラマツ」は針葉樹なのに、冬になると葉っぱを全部落としちゃう変わり者なんだよ！春になると、短い枝から柔らかい針葉がふわっと生えてくるよ。秋には黄金色に輝いて、とってもきれい！アイヌの人たちは「クネニ（黒い木）」と呼んでいたんだ。北海道では山に行くと、カラマツの林がたくさん見られるよ！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：カラマツの短い枝から針葉が放射状に生えているのを探してみよう！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-note kids-version">
+                <div class="expert-icon">🌲</div>
+                <div class="expert-content">
+                    <h4>ポイント</h4>
+                    <p>北海道の森は、本州の森とは全然違うんだよ！寒い気候に適応した特別な木がたくさん育っているんだ。エゾマツやトドマツといった北海道ならではの木々は、アイヌの人たちの生活に欠かせない存在だったんだよ。材木や樹皮など、色んな部分が大切に使われていたんだ！</p>
+                    <p><em>- </em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="edible-plants" class="featured-section">
+            <h2><span class="section-emoji">🍽️</span> 食べられる植物を探そう！</h2>
+            
+            <div class="plant-list">
+                <!-- ヤマグワ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/edible-plants/yamaguwa_01.jpg" data-lightbox="yamagwa" data-title="ヤマグワ：実は甘酸っぱく、生食できます。">
+                            <img src="images/edible-plants/yamaguwa_01.jpg" alt="ヤマグワ" class="plant-img">
+                        </a>
+                        <a href="images/edible-plants/yamaguwa_02.jpg" data-lightbox="yamagwa" data-title="ヤマグワの葉：様々な形があり、蚕の餌になります。" class="hidden"></a>
+                        <a href="images/edible-plants/yamaguwa_03.jpg" data-lightbox="yamagwa" data-title="ヤマグワの実：熟すと紫黒色になります。" class="hidden"></a>
+                        
+                        <span class="photo-count">+2</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>ヤマグワ</h4>
+                            <span class="plant-badge">カイコの大好物</span>
+                        </div>
+                        <p class="scientific-name">Morus australis</p>
+                        <p class="plant-features">夏に真っ赤な実がなる「ヤマグワ」、見たことあるかな？熟すと紫黒色になって、ブラックベリーみたいな見た目だけど、もっと甘酸っぱくておいしいんだよ！葉っぱはカイコの大好物で、絹を作るためにたくさん育てられていたんだ。葉っぱの形はいろいろあって、ミトン（手袋）みたいな形のもあるよ。探してみよう！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">⚠️</span>
+                            <p>注意：自分だけの判断で、野生の実を食べないようにしましょう</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- トチノキ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/edible-plants/tochinoki_01.jpg" data-lightbox="tochinoki" data-title="トチノキ：種子はアク抜きをして食用になります。">
+                            <img src="images/edible-plants/tochinoki_01.jpg" alt="トチノキ" class="plant-img">
+                        </a>
+                        <a href="images/edible-plants/tochinoki_02.jpg" data-lightbox="tochinoki" data-title="トチノキの花：初夏に白い花を咲かせます。" class="hidden"></a>
+                        <a href="images/edible-plants/tochinoki_03.jpg" data-lightbox="tochinoki" data-title="トチノキの実：堅い殻の中に大きな種子が入っています。" class="hidden"></a>
+                        
+                        <span class="photo-count">+2</span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>トチノキ</h4>
+                            <span class="plant-badge">大きな手のような葉</span>
+                        </div>
+                        <p class="scientific-name">Aesculus turbinata</p>
+                        <p class="plant-features">「トチノキ」は大きな手のような葉っぱを持つ立派な木だよ！初夏に咲く白い花はロウソクみたいな形をしているよ。秋になると、イガイガの殻に包まれた大きな実ができるんだ。この実の中の種は、アク抜きをすると「トチ餅」という和菓子になるんだよ。昔の人はおなかがすいたときの大事な食料にしていたんだって！</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">🔎</span>
+                            <p>ミッション：トチノキの大きな葉っぱを見つけて、何枚の小さな葉（小葉）でできているか数えてみよう！</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- イチイ -->
+                <div class="plant-card">
+                    <div class="plant-gallery">
+                        <a href="images/edible-plants/ichii_01.jpg" data-lightbox="ichii" data-title="イチイ：赤い仮種皮（アリルス）は甘く食べられますが、種子は有毒です。">
+                            <img src="images/edible-plants/ichii_01.jpg" alt="イチイ" class="plant-img">
+                        </a>
+                        
+                        <span class="photo-count"></span>
+                    </div>
+                    <div class="plant-card-content">
+                        <div class="plant-name-container">
+                            <h4>イチイ</h4>
+                            <span class="plant-badge">不思議な実の木</span>
+                        </div>
+                        <p class="scientific-name">Taxus cuspidata</p>
+                        <p class="plant-features">「イチイ」は不思議な木だよ！針葉樹なのに、実がなんと赤くて柔らかいんだ！でも、この「実」は本当は種の周りを包む「仮種皮（アリルス）」というものなんだって。この赤い部分は甘くて食べられるけど、中の黒い種は絶対に食べちゃダメ！有毒なんだ。アイヌの人たちはこの木を「オンコ」と呼んで、丈夫な弓を作っていたんだよ。</p>
+                        <div class="discovery-task">
+                            <span class="task-emoji">⚠️</span>
+                            <p>注意：イチイの種は有毒！！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-note kids-version warning">
+                <div class="expert-icon">⚠️</div>
+                <div class="expert-content">
+                    <h4>大切なお知らせ！</h4>
+                    <p>野草の中には食べられるものと、食べると危険なものがあるんだ！自分だけで判断しないようにしましょう</p>
+                    <p><em>- </em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="featured-section">
+            <h2><span class="section-emoji">🎮</span> 植物たんけんゲーム</h2>
+            
+            <div class="games-container">
+                <div class="game-card">
+                    <div class="game-icon">🎯</div>
+                    <h3>植物ビンゴ</h3>
+                    <p>お散歩しながら、いろんな形の葉っぱを見つけてビンゴを完成させよう！</p>
+                    <a href="#" class="btn game-btn">ビンゴシートをダウンロード</a>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-icon">🔍</div>
+                    <h3>葉っぱの宝探し</h3>
+                    <p>「ハート型の葉」「ギザギザの葉」など、いろんな特徴の葉っぱを探そう！</p>
+                    <a href="#" class="btn game-btn">ミッションリストをダウンロード</a>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-icon">🎨</div>
+                    <h3>自然のアート</h3>
+                    <p>拾った葉っぱや木の実を使って、オリジナルアート作品を作ろう！</p>
+                    <a href="#" class="btn game-btn">アイデア集をダウンロード</a>
+                </div>
+            </div>
+            
+            <div class="coming-soon">
+                <h3><span class="soon-emoji">✨</span> このあとも楽しみがいっぱい！</h3>
+                <p>「札幌の植物たんけん」シリーズは、これからも続くよ！次回をお楽しみに！</p>
+                <ul class="coming-soon-list">
+                    <li><span class="list-emoji">🍁</span> 「秋の紅葉編」- まちが赤や黄色に染まるよ！</li>
+                    <li><span class="list-emoji">❄️</span> 「冬芽観察編」- 雪の中の植物の秘密を探ろう！</li>
+                    <li><span class="list-emoji">🌱</span> 「春の芽吹き編」- 春の訪れを感じよう！</li>
+                    <li><span class="list-emoji">🌸</span> 「初夏の花編」- カラフルな花たちに会いに行こう！</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>植物たんけんマップ</h3>
+                    <ul>
+                        <li><a href="#street-trees">まちなかの木</a></li>
+                        <li><a href="#park-trees">公園のきみょうな木</a></li>
+                        <li><a href="#river-plants">豊平川のふしぎな植物</a></li>
+                        <li><a href="#hokkaido-trees">北海道だけの特別な木</a></li>
+                        <li><a href="#edible-plants">食べられる植物</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>もっと知りたい人は</h3>
+                    <ul>
+                        <li><a href="https://www.hokudai.ac.jp/fsc/bg/" target="_blank">北海道大学植物園</a></li>
+                        <li><a href="https://www.sapporo-park.or.jp/" target="_blank">札幌市公園緑化協会</a></li>
+                        <li><a href="https://www.city.sapporo.jp/index.html" target="_blank">札幌市公式ウェブサイト</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>おといあわせ</h3>
+                    <p>駿台小中学部教務室 札幌植物たんけんプロジェクト</p>
+                    <p>Email: sugita@sundai-kyoken.jp</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 駿台小中学部札幌植物たんけんプロジェクト. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
